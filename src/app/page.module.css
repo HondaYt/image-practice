@@ -1,0 +1,11 @@
+.image {
+    width: 50%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .image {
+        width: 100%;
+    }
+}
