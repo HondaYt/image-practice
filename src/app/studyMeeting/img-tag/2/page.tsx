@@ -3,8 +3,10 @@ export default function Page() {
         <>
             <p>↓CUTE↓</p>
             <img src={'/sample_w384.webp'}
-                width={384}
-                height={384}
+                style={{
+                    width: '384px',
+                    height: '384px'
+                }}
             />
             <p>↑CUTE↑</p>
         </>
