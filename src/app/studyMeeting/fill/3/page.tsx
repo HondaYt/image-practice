@@ -8,7 +8,7 @@ export default function Page() {
                 <Image
                     src={'https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjg5ZDVhMTE0OGQwODE5MWJkYjkxMWFjNzdiNWIzZGM6ZmlsZV8wMDAwMDAwMDZkMjA2MjBhOTc1MDBlZDAwMDBhZjdmMCIsInRzIjoiNDg4MjA4IiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI4MTA0YTQyODZhMGFiYWRjZjFjYjE5NTcwMGVkMzRkYzc3ZTliODJhMDU1ZGNkM2VlYmJlYTJmNTJjYThkODQzIiwidiI6IjAiLCJnaXptb19pZCI6bnVsbCwiY3AiOm51bGwsIm1hIjpudWxsfQ=='}
                     fill
-                    style={{ objectFit: 'cover', backgroundColor: '#ddd' }}
+                    style={{ objectFit: 'contain', objectPosition: '200px 100px', backgroundColor: '#ddd' }}
                     alt={"かわいい猫"}
                 />
             </div>
