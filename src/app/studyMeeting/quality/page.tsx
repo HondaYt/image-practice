@@ -10,7 +10,6 @@ export default function Page() {
             alt='かわいい猫'
             sizes="(max-width: 768px) 100vw, 400px"
             quality={50}
-            priority
         />
     );
 }
