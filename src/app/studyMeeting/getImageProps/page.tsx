@@ -17,6 +17,12 @@ export default function Home() {
         src: sample_mono
     })
 
+    console.log(getImageProps({
+        ...common,
+        src: sample
+    }));
+
+
     return (
         <picture>
             <source media="(min-width: 1000px)" srcSet={desktop} />
